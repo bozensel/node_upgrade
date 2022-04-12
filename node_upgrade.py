@@ -42,8 +42,8 @@ def bof_parser(data_to_parse):
   targetnode = {
 'device_type': 'nokia_sros',
 'ip': '172.29.6.137',
-'username': 'admin',
-'password': 'admin',
+'username': 'user',
+'password': 'password',
 'port': 22,
 }
 

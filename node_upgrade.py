@@ -50,9 +50,9 @@ def bof_parser(data_to_parse):
 remote_connect = ConnectHandler(**targetnode)
 remote_connect.send_command("environment no more\n")
 output = remote_connect.send_command_timing("admin redundancy synchronize config") # It's the 1st prerequisite command needs to be run before the upgrade.  
-print(output)
+#print(output)
 output2 = remote_connect.send_command_timing("\nadmin redundancy synchronize boot-env") # It's the 2st prerequisite command needs to be run before the upgrade.  
-print(output2)
+#print(output2)
 
 time.sleep(60)
 

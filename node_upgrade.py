@@ -115,5 +115,3 @@ if upgrade_counter == True:
         print(colored("SUCCESS! The node is successfully upgraded.", "green"))
     elif new_release == version_parser(version_output)[0]['show_version']['Current_Release']: # Check if the new release is same with the previous one. If yes, which means the node is not upgraded, and it comes up with the same release as secondary-image under bof configured with current release, it was not upgraded with the new release information. 
         print(colored("FAIL! It looks the node comes up with current release. Please check all image files of new release.", "red")) 
-
-        

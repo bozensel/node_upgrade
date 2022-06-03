@@ -3,7 +3,7 @@ How to automate node upgrade process
 
 The program checks the each step of the Nokia node release upgrade progress and warns/informs the user with relevant informations. 
 
-The Python library Netmiko is used to send command to device. 
+The Python library Netmiko is used to send command to the device. 
 
 Sample Outputs when program is running: 
 
